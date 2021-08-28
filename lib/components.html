@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Component library</title>
+  </head>
+  <body>
+    <h1>Welcome to my Component library!</h1>
+    <p>
+      I am making a library in a live coding session with Tanay Pratap in
+      neogCamp which will help make all my projrcts consistent.
+    </p>
+    <hr />
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This para will have a <strong>bold</strong> text.</p>
+    <p>
+      Let me show you a normal text block. This is free flowing and will wrap at
+      the end like a paragraph which it it!
+    </p>
+    <small>This is small text</small>
+
+    <h2>@containers</h2>
+    <h3>Fluid container</h3>
+    <div class="container">
+      This is fluid container and it will go till the end of page
+    </div>
+    <h3>center container</h3>
+    <div class="container container-center">
+      This is fluid container and it will go till the end of page
+    </div>
+    <hr />
+
+    <h2>@links</h2>
+    <a href="/" class="mainLink link">Primary link</a>
+    <a href="/" class="secLink link">Seconday link</a>
+    <hr />
+    <h2>Unordered list</h2>
+    <ul class="list-non-bullet">
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+    </ul>
+    <h2>Unordered inline list</h2>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">First Item</li>
+      <li class="list-item-inline">Second Item</li>
+      <li class="list-item-inline">Third Item</li>
+    </ul>
+
+    <h3>Reversed ordered list</h3>
+    <ol reversed>
+      <li>Eggs</li>
+      <li>MIlk</li>
+      <li>Bread</li>
+    </ol>
+    <hr />
+    <h3>@nav</h3>
+    <nav class="navigation container">
+      <div class="nav-brand">iAmBrand</div>
+      <ul class="list-non-bullet navPills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="/linkOne">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/linkTwo">Product</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/linkThree">About</a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+
+    <h2>Header</h2>
+    <header class="hero">
+      <img class="hero-img" src="/images/hero.svg" alt="" />
+      <h1 class="hero-heading">
+        Sumit Saurabh, <span class="header-span"> the web developer</span>
+      </h1>
+    </header>
+    <hr />
+    <h2>@section</h2>
+
+    <section class="section">
+      <div class="container-center">
+        <h1>white section</h1>
+        <p>
+          Roughly a year ago at Mozilla we started an effort to improve Firefox
+          stability on Linux. This effort quickly became an example of good
+          synergies between FOSS projects.
+        </p>
+      </div>
+    </section>
+
+    <section class="section ow">
+      <div class="container-center">
+        <h1>off white section</h1>
+        <p>
+          This report contains, among other things, a minidump: a small snapshot
+          of the process memory at the time it crashed. This includes the
+          contents of the processor’s registers as well as data from the stacks
+          of every thread.
+        </p>
+      </div>
+    </section>
+    <hr / >
+    <h2>@footer</h2>
+    <footer class="footer">
+      <div class="footer-heading">Some small footer heading</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="/link">socialOne</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/link">socialTwo</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/link">socialThree</a>
+        </li>
+      </ul>
+    </footer>
+
+    <!-- <div style="height: 30vh"></div> -->
+  </body>
+</html>
